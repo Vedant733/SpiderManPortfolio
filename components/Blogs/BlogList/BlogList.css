@@ -1,0 +1,14 @@
+.blogElement.active{
+    transition:all 1s;
+    padding:5px;
+    border-radius: 10%;
+    color: #fff;
+    background-color: darkblue;
+    
+}
+.blogElement{
+    transition:all 1s;
+    font-size:18px;
+    font-weight:400;
+    padding:5px;
+}

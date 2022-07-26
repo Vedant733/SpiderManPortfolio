@@ -1,0 +1,21 @@
+.works .mid{
+    top:50%;
+    left:30%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.mid .d{
+    width:400px;
+    height:500px;
+    background-color: black;
+}
+.works .left{
+    height: 100%;
+    width:30%;
+    background-color: black;
+}
+.works .right{
+    z-index: 1000;
+    height: 100%;
+    width: 70%;
+}

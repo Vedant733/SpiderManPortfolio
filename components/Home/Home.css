@@ -1,0 +1,46 @@
+.homePage{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.homePage-img{
+    overflow: hidden;
+    /* flex:0.5; */
+}
+.homePage-img-div{
+    float: right;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: red;
+    border-radius: 50%;
+}
+.homePage-img img{
+    width: 80%;
+    height: 80%;
+}
+.homePage-info h1{
+    font-size:50px;
+}
+.homePage-info h2{
+    font-size:40px;
+}
+.homePage-info h3{
+    font-size:30px;
+}
+.homePage-info h3 span{
+    color:red;
+}
+
+.ityped-cursor{
+    animation:blink 0.5s infinite;
+}
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}

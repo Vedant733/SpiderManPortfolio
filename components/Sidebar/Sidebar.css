@@ -1,0 +1,18 @@
+.sidebar{
+    top: 0;
+    left: 0;
+    display: flex;
+    position:fixed;
+    height:100%;
+    width:70px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* background-image: linear-gradient(to bottom,yellow,red); */
+    background-color:grey;
+}
+.sidebar span{
+    margin-top:50%;
+}
